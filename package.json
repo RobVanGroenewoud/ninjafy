@@ -1,0 +1,23 @@
+{
+  "name": "ninjafy",
+  "version": "0.0.0",
+  "description": "Converts a string into its Ninja-style equivalent",
+  "main": "dist",
+  "files": [
+    "dist"
+  ],
+  "types": "dist",
+  "scripts": {
+    "build": "tsc",
+    "release": "np"
+  },
+  "keywords": [
+    "string"
+  ],
+  "author": "Rob van Groenewoud",
+  "license": "MIT",
+  "devDependencies": {
+    "np": "^4.0.2",
+    "typescript": "^3.3.3333"
+  }
+}
